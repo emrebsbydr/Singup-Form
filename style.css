@@ -1,0 +1,88 @@
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+}
+form {
+  margin: auto;
+  width: 50%;
+}
+input {
+  margin: 12px 5px;
+  padding: 5px 2px;
+  width: 100%;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+/* .ab {
+  font-size: 20px;
+} */
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+}
+span {
+  color: blue;
+}
+
+.input-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 30px;
+}
+
+.confirm-row {
+  margin-top: 5px;
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.checkbox-buton {
+  white-space: nowrap;
+  padding-top: 10px;
+}
+
+.checkbox {
+  display: inline-block;
+  width: 20%;
+}
+
+.btn-section {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 50 auto;
+  grid-gap: 20px;
+}
+.btn {
+  padding: 10px 20px;
+  float: left;
+  width: 100%;
+  margin: 5px 10px;
+  border-radius: 10px;
+}
+#register-btn {
+  color: white;
+  background-color: rgb(0, 119, 255);
+  font-size: 19px;
+}
+#signin-btn {
+  background-color: rgb(33, 131, 33);
+  color: white;
+  font-size: 19px;
+}
+@media screen and (min-width: 400px) {
+  body {
+    width: 100vw;
+  }
+}
