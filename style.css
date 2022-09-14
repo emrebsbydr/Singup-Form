@@ -26,6 +26,7 @@ p {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-left: 20px;
+  font-size: 19px;
 }
 button {
   background-color: blue;
@@ -56,6 +57,7 @@ span {
 .checkbox {
   display: inline-block;
   width: 20%;
+  font-size: 21px;
 }
 
 .btn-section {
@@ -77,7 +79,7 @@ span {
   font-size: 19px;
 }
 #signin-btn {
-  background-color: rgb(33, 131, 33);
+  background-color: rgb(41, 167, 41);
   color: white;
   font-size: 19px;
 }
